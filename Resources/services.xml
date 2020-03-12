@@ -9,5 +9,8 @@
             <argument type="service" id="template"/>
             <tag name="shopware.event_subscriber"/>
         </service>
+        <service id="blackbeards_mailchimp_signup.subscriber.newsletter_email_parameter" class="BlackbeardsMailchimpSignup\Subscriber\NewsletterEmailParameter">
+            <tag name="shopware.event_subscriber"/>
+        </service>
     </services>
 </container>

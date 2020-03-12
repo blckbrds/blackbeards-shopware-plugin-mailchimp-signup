@@ -15,7 +15,7 @@
                 <div class="mc-field-group">
                     <label for="mce-EMAIL">E-Mail Adresse
                     </label>
-                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                    <input type="email" value="{if $mailchimpSignupEmail}{$mailchimpSignupEmail}{/if}" name="EMAIL" class="required email" id="mce-EMAIL">
                 </div>
                 <div class="mc-field-group">
                     <label for="mce-FNAME">Vorname </label>
