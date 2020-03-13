@@ -1,0 +1,78 @@
+.newsletter-teaser-background {
+    margin: 1em -9999px;
+    padding: 0 9999px;
+    background-color: #1bb8d8;
+}
+
+.newsletter-teaser {
+    &:extend(.container);
+    overflow: hidden;
+    padding: .625rem;
+    background-color: #1bb8d8;
+
+    color: #fff;
+
+    h2, h3, h4, h5, h6 {
+        display: block;
+        color: #fff;
+    }
+
+    input[type=email],
+    input[type=password],
+    input[type=tel],
+    input[type=text],
+    input[type=number] {
+        padding: .92rem;
+        border-color: #fff;
+        background-color: #fff;
+    }
+
+    .newsletter-teaser--form--input {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    
+    .newsletter-teaser--form--button {
+        padding: .525rem;
+        width: 100%;
+    }
+
+    .newsletter-teaser--form--button {
+        background-color: #ff7214;
+        color: #fff;
+        border-color: #ff7214;
+    }
+    
+    .newsletter-teaser--form--button:hover {
+        background-color: #ff9148;
+        color: #fff;
+        border-color: #ff9148;
+    }
+
+    .newsletter-teaser--form:after {
+        clear: both;
+    }
+
+    @media (min-width: @tabletViewportWidth) {
+        & {
+            padding: .625rem 1.875rem .625rem 1.875rem;
+        }
+
+        .newsletter-teaser--form--input {
+            width: 70%;
+            float: left;
+        }
+    
+        .newsletter-teaser--form--button {
+            width: 29%;
+            margin-left: 1%;
+            float: left;
+        }
+    }
+
+    @media (min-width: @tabletLandscapeViewportWidth) {
+        & {
+            padding: .625rem 0 .625rem 0;
+        }
+    }
+}
