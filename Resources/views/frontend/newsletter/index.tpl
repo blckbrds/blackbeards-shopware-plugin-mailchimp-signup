@@ -6,7 +6,7 @@
     <h1>{s name='NewsletterRegisterHeadline'}Melde dich zu unserem Newsletter an…{/s}</h1>
     <h2>{s name='NewsletterRegisterSubHeadline'}…und erhalte 10% Rabatt auf deine nächste Bestellung.{/s}</h2>
     {s name='NewsletterRegisterBanner'}
-        <img src="https://blackbeards.de/medien/blackbeards-newsletter-anmeldung-mike-seebauer.jpg" alt="">
+        <img src="https://wordpress.blackbeards.de/wp-content/uploads/2020/03/blackbeards-newsletter.jpg" alt="">
     {/s}
     <div id="mc_embed_signup">
         <form
